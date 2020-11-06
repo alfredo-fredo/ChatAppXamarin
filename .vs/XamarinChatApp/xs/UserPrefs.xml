@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{837AF77B-CAD8-4317-8134-F04AE598BAA9}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinChatApp" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamarinChatApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.XamarinChatApp FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.XamarinChatApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
