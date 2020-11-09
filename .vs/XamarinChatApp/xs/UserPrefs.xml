@@ -1,16 +1,25 @@
 ﻿<Properties StartupConfiguration="{837AF77B-CAD8-4317-8134-F04AE598BAA9}|Default">
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="XamarinChatApp/MyPage.xaml" Line="11" Column="42" />
+      <File FileName="XamarinChatApp/MainPage.xaml.cs" />
+      <File FileName="XamarinChatApp/MainPage.xaml" />
+      <File FileName="XamarinChatApp/MyPage.xaml.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XamarinChatApp" expanded="True" selected="True" />
+          <Node name="XamarinChatApp" expanded="True">
+            <Node name="XamarinChatApp" expanded="True">
+              <Node name="MyPage.xaml" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.XamarinChatApp.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.XamarinChatApp FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.XamarinChatApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.ItemProperties.XamarinChatApp.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_q_10_0_-_api_29" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
