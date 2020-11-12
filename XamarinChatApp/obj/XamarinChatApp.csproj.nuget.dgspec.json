@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj": {}
+    "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj": {}
   },
   "projects": {
-    "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj": {
+    "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj",
+        "projectUniqueName": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj",
         "projectName": "XamarinChatApp",
-        "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj",
-        "packagesPath": "/Users/alfred/.nuget/packages/",
-        "outputPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/",
+        "projectPath": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj",
+        "packagesPath": "/Users/william.v/.nuget/packages/",
+        "outputPath": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alfred/.config/NuGet/NuGet.Config"
+          "/Users/william.v/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
