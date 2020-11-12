@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace XamarinChatApp
 {
@@ -13,13 +14,21 @@ namespace XamarinChatApp
 
         FirebaseHelper firebaseHelper;
 
+        Location location;
+
+        String userID;
+
         public MainPage()
         {
             InitializeComponent();
 
+            userID = Preferences.Get("user", "null");
+
             firebaseHelper = new FirebaseHelper();
 
             DisplayMessages();
+
+            GetLocation();
         }
 
         async void Send_Clicked(System.Object sender, System.EventArgs e)
@@ -28,7 +37,7 @@ namespace XamarinChatApp
             {
                 firebaseHelper = new FirebaseHelper();
 
-                await firebaseHelper.SendMessage("Alfred", SendChatRoomText.Text);
+                await firebaseHelper.SendMessage(userID, SendChatRoomText.Text);
 
                 SendChatRoomText.Text = "";
             }
@@ -38,6 +47,7 @@ namespace XamarinChatApp
         {
             Console.WriteLine("DisplayMessages called.");
 
+            Console.WriteLine("UserID is: " + userID);
             firebaseHelper = new FirebaseHelper();
             List<MessageData> messageDatas = await firebaseHelper.GetMessages();
 
@@ -45,7 +55,17 @@ namespace XamarinChatApp
 
             foreach(MessageData m in messageDatas)
             {
-                myViewCells.Add(new MyViewCell(m.SenderID, m.Message, m.TimeStamp));
+                int myMsgs = 0;
+                if(m.SenderID.ToLower().Equals(userID))
+                {
+                    myViewCells.Add(new MyViewCell(m.SenderID, m.Message, m.TimeStamp, true));
+                    myMsgs++;
+                }
+                else
+                {
+                    myViewCells.Add(new MyViewCell(m.SenderID, m.Message, m.TimeStamp, false));
+                }
+                Console.WriteLine(userID + " contributes to " + myMsgs + " messages in this chat.");
             }
 
             if (myViewCells.Count > 0)
@@ -62,6 +82,26 @@ namespace XamarinChatApp
             }
 
             DisplayMessages();
+        }
+
+        public async void GetLocation()
+        {
+            try
+            {
+                location = await Geolocation.GetLastKnownLocationAsync();
+
+                if (location != null)
+                {
+                    Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                }
+
+                Console.WriteLine(location);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+
+            }
         }
 
     }

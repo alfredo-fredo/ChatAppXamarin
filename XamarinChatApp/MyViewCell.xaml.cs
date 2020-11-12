@@ -16,13 +16,24 @@ namespace XamarinChatApp
         public String Message { get; set; }
         public String TimeStamp { get; set; }
 
-        public MyViewCell(String Name, String Message, String TimeStamp)
+
+        public MyViewCell(String Name, String Message, String TimeStamp, bool isMyMessage)
         {
             InitializeComponent();
             this.Name = Name;
             this.Message = Message;
             this.TimeStamp = TimeStamp;
 
+            if (isMyMessage)
+            {
+                MyLayout.BackgroundColor = Color.FromHex("#034078");
+               
+                
+            }
+            else
+            {
+                MyLayout.BackgroundColor = Color.FromHex("#1282A2");
+            }
         }
 
         public MyViewCell()

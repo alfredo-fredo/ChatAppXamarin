@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Firebase.Auth;
 using Newtonsoft.Json;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace XamarinChatApp
 {
@@ -23,6 +24,9 @@ namespace XamarinChatApp
             {
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(apiKey));
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(EmailText.Text, PasswordText.Text);
+                var user = auth.User.Email.Split('@');
+                Preferences.Set("user", user[0]);
+                Console.WriteLine(user[0]);
                 //var content = await auth.GetFreshAuthAsync();
                 //var serializedContent = JsonConvert.SerializeObject(content);
 

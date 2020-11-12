@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Firebase;
+using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Database.Query;
 using Xamarin.Forms;
@@ -14,6 +15,8 @@ namespace XamarinChatApp
         FirebaseClient firebaseClient;
 
         readonly String childRef = "chatroom1";
+
+        readonly String apiKey = "AIzaSyB19roUyLOHHuASYMMlIFdIiwydYwyzulE";
 
         readonly String DBRef = "https://chat-app-cbd3c.firebaseio.com/";
 
