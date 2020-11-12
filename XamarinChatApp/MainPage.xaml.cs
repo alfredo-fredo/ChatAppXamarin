@@ -9,11 +9,18 @@ using Xamarin.Forms;
 namespace XamarinChatApp
 {
     public partial class MainPage : ContentPage
-    {
-      
+    { 
+
+        FirebaseHelper firebaseHelper;
+
         public MainPage()
         {
             InitializeComponent();
+
+            firebaseHelper = new FirebaseHelper();
+
+            firebaseHelper.DbChangeListener(MainListView);
+
 
             DisplayMessages();
         }
@@ -22,7 +29,7 @@ namespace XamarinChatApp
         {
             if(SendChatRoomText.Text.Length > 0)
             {
-                FirebaseHelper firebaseHelper = new FirebaseHelper();
+                firebaseHelper = new FirebaseHelper();
 
                 await firebaseHelper.SendMessage("Alfred", SendChatRoomText.Text);
 
@@ -30,9 +37,9 @@ namespace XamarinChatApp
             }
         }
 
-        async void DisplayMessages()
+        public async void DisplayMessages()
         {
-            FirebaseHelper firebaseHelper = new FirebaseHelper();
+            firebaseHelper = new FirebaseHelper();
             List<MessageData> messageDatas = await firebaseHelper.GetMessages();
 
             List<MyViewCell> myViewCells = new List<MyViewCell>();

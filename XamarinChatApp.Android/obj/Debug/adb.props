@@ -1,2 +1,2 @@
-AdbTarget=-s R58N95B10TP
+AdbTarget=-s emulator-5554
 AdbOptions=

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Firebase;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Xamarin.Forms;
 
 namespace XamarinChatApp
 {
@@ -43,12 +44,31 @@ namespace XamarinChatApp
                 }).ToList();
         }
 
-        public async void Listener()
+        public void DbChangeListener(ListView mainListView)
         {
-            var childQ = firebaseClient.Child(DBRef);
-            childQ.AsObservable<MessageData>().Subscribe(job =>
+            firebaseClient.Child(DBRef).AsObservable<MessageData>().Subscribe(async job =>
             {
+                List<MessageData> messageDatas = await GetMessages();
 
+                List<MyViewCell> myViewCells = new List<MyViewCell>();
+
+                foreach (MessageData m in messageDatas)
+                {
+                    myViewCells.Add(new MyViewCell(m.SenderID, m.Message, m.TimeStamp));
+                }
+
+                if (myViewCells.Count > 0)
+                {
+                    mainListView.ItemsSource = myViewCells;
+
+                }
+                else
+                {
+                    mainListView.ItemsSource = new List<MyViewCell>
+                    {
+
+                    };
+                }
             });
         }
     }
