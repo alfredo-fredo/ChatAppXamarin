@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage BackgroundColor="WhiteSmoke" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinChatApp" x:Class="XamarinChatApp.MainPage">
+<ContentPage BackgroundColor="#FEFCFB" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinChatApp" x:Class="XamarinChatApp.MainPage">
     <StackLayout>
 <ListView x:Name="MainListView">
     <ListView.ItemTemplate>
@@ -13,8 +13,8 @@
     </ListView.ItemTemplate>
 </ListView>
         <StackLayout Orientation="Horizontal">
-            <Entry Placeholder="Write to chat room" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  x:Name="SendChatRoomText" Margin="20, 0, 10, 0"></Entry>
-            <Button Text="Send" Margin="10, 0, 20, 0" Clicked="Send_Clicked"></Button>
+            <Entry Placeholder="Write To Chat!" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  x:Name="SendChatRoomText" Margin="20, 0, 10, 0"></Entry>
+            <Button TextColor = "#FEFCFB" BackgroundColor="#001F54" Text="Send" Margin="10, 0, 20, 0" Clicked="Send_Clicked"></Button>
         </StackLayout>
     </StackLayout>
 </ContentPage>

@@ -2313,20 +2313,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/alfred/.nuget/packages/": {}
+    "/Users/william.v/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
+      "projectUniqueName": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
       "projectName": "XamarinChatApp.Android",
-      "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
-      "packagesPath": "/Users/alfred/.nuget/packages/",
-      "outputPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/",
+      "projectPath": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
+      "packagesPath": "/Users/william.v/.nuget/packages/",
+      "outputPath": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/alfred/.config/NuGet/NuGet.Config"
+        "/Users/william.v/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
@@ -2337,8 +2337,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj": {
-              "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj"
+            "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj": {
+              "projectPath": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj"
             }
           }
         }
