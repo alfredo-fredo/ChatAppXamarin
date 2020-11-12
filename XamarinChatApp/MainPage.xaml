@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage BackgroundColor="WhiteSmoke" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinChatApp" x:Class="XamarinChatApp.MainPage">
     <StackLayout>
-    <SearchBar Placeholder="Search" BackgroundColor="Transparent" Margin="0, 20, 0, 0"/>
 <ListView x:Name="MainListView">
     <ListView.ItemTemplate>
         <DataTemplate>

@@ -19,9 +19,6 @@ namespace XamarinChatApp
 
             firebaseHelper = new FirebaseHelper();
 
-            firebaseHelper.DbChangeListener(MainListView);
-
-
             DisplayMessages();
         }
 
@@ -39,6 +36,8 @@ namespace XamarinChatApp
 
         public async void DisplayMessages()
         {
+            Console.WriteLine("DisplayMessages called.");
+
             firebaseHelper = new FirebaseHelper();
             List<MessageData> messageDatas = await firebaseHelper.GetMessages();
 
@@ -62,7 +61,7 @@ namespace XamarinChatApp
                 };
             }
 
-            
+            DisplayMessages();
         }
 
     }

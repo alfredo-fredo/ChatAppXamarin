@@ -48,7 +48,9 @@ namespace XamarinChatApp
         {
             firebaseClient.Child(DBRef).AsObservable<MessageData>().Subscribe(async job =>
             {
-                List<MessageData> messageDatas = await GetMessages();
+
+                Console.WriteLine("Change in db");
+                /*List<MessageData> messageDatas = await GetMessages();
 
                 List<MyViewCell> myViewCells = new List<MyViewCell>();
 
@@ -68,7 +70,7 @@ namespace XamarinChatApp
                     {
 
                     };
-                }
+                }*/
             });
         }
     }
