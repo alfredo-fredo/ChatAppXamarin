@@ -2,9 +2,9 @@
 <ViewCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinChatApp.MyViewCell">
     <ViewCell.View>
         <StackLayout Orientation="Horizontal" x:Name="MyLayout">
-            <Label TextColor="Black" Text="{Binding Name}"></Label>
-            <Label TextColor="Black" Text="{Binding Message}"></Label>
-            <Label TextColor="Black" Text="{Binding TimeStamp}"></Label>
+            <Label FontSize="20" Padding="10" TextColor="Black" Text="{Binding Name}"></Label>
+            <Label TextColor="Black"  Text="{Binding Message}"></Label>
+            <Label TextColor="Black"  Text="{Binding TimeStamp}"></Label>
         </StackLayout>
     </ViewCell.View>
 </ViewCell>

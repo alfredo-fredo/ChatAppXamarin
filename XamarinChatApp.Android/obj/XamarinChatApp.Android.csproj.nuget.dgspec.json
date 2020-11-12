@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/XamarinChatApp.Android.csproj": {}
+    "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.Android/XamarinChatApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/XamarinChatApp.Android.csproj": {
+    "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.Android/XamarinChatApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
+        "projectUniqueName": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
         "projectName": "XamarinChatApp.Android",
-        "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
-        "packagesPath": "/Users/alfred/.nuget/packages/",
-        "outputPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/",
+        "projectPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.Android/XamarinChatApp.Android.csproj",
+        "packagesPath": "/Users/antonlindgren/.nuget/packages/",
+        "outputPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/alfred/.config/NuGet/NuGet.Config"
+          "/Users/antonlindgren/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj": {
-                "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj"
+              "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj": {
+                "projectPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj"
               }
             }
           }
@@ -48,17 +48,17 @@
         }
       }
     },
-    "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj": {
+    "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj",
+        "projectUniqueName": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj",
         "projectName": "XamarinChatApp",
-        "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj",
-        "packagesPath": "/Users/alfred/.nuget/packages/",
-        "outputPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/",
+        "projectPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj",
+        "packagesPath": "/Users/antonlindgren/.nuget/packages/",
+        "outputPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alfred/.config/NuGet/NuGet.Config"
+          "/Users/antonlindgren/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -68,6 +68,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -79,6 +80,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "FirebaseAuthentication.net": {
               "target": "Package",
@@ -117,7 +119,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

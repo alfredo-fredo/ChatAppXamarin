@@ -14,6 +14,8 @@ namespace XamarinChatApp
         public LoginPage()
         {
             InitializeComponent();
+
+            
         }
 
         async void Login_Clicked(System.Object sender, System.EventArgs e)

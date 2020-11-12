@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage BackgroundColor="#FEFCFB" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinChatApp.LoginPage">
-    <StackLayout VerticalOptions="Center" >   
+    <StackLayout VerticalOptions="Center" >
+        <Label FontSize="80" Text="ChatApp" TextColor="{OnPlatform Android='#001F54',iOS='#808000'}" FontAttributes="Italic" Padding="60,0,0,50"/>
             <Entry Placeholder="Email" x:Name="EmailText" Margin="60, 0, 60, 0"></Entry>
             <Entry Placeholder="Password" x:Name="PasswordText" IsPassword="True" Margin="60, 0, 60, 0"></Entry>
             <Button TextColor="AntiqueWhite" BackgroundColor="#001F54" Text="Login" Margin="60, 10, 60, 10" Clicked="Login_Clicked"></Button>
             <Label Text="OR" Margin="0, 20, 0, 20" HorizontalOptions="Center" Opacity="0.75"></Label>
             <Button TextColor="AntiqueWhite" BackgroundColor="#001F54" Text="New account" Margin="100, 10, 100, 10" Opacity="0.75" Clicked="New_Clicked"></Button>
+        <!--<Label Text="Caroline Baskin" TextColor="Black" FontSize="16">
+            <Label.Text>
+                <OnPlatform x:TypeArguments="Color">
+                    <OnPlatform.Platforms>
+                        <On Platform="Android" Value="Green"/>
+                    </OnPlatform.Platforms>
+                </OnPlatform>
+            </Label.Text>
+
+        </Label>-->
+
     </StackLayout>
 </ContentPage>

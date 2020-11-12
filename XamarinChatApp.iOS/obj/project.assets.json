@@ -1638,20 +1638,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/alfred/.nuget/packages/": {}
+    "/Users/antonlindgren/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
+      "projectUniqueName": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
       "projectName": "XamarinChatApp.iOS",
-      "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
-      "packagesPath": "/Users/alfred/.nuget/packages/",
-      "outputPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.iOS/obj/",
+      "projectPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
+      "packagesPath": "/Users/antonlindgren/.nuget/packages/",
+      "outputPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/alfred/.config/NuGet/NuGet.Config"
+        "/Users/antonlindgren/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1662,8 +1662,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj": {
-              "projectPath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj"
+            "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj": {
+              "projectPath": "/Users/antonlindgren/Documents/ChatAppXamarin/XamarinChatApp/XamarinChatApp.csproj"
             }
           }
         }
