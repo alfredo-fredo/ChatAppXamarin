@@ -463,3 +463,14 @@
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/Firebase.Auth.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Collections.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Linq.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Reflection.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Threading.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Threading.Tasks.dll

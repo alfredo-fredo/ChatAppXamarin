@@ -13,3 +13,5 @@
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/Debug/netstandard2.0/ref/XamarinChatApp.dll
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/Debug/netstandard2.0/XamarinChatApp.pdb
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/obj/Debug/netstandard2.0/ChatPage.xaml.g.cs

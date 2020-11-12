@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="WhiteSmoke" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinChatApp.ChatPage">
+    <StackLayout>
+         <Frame BackgroundColor="MediumPurple">
+             <Label Text="+{Binding User}" TextColor="AntiqueWhite" FontSize="Large"></Label>
+         </Frame>
+    <ListView>
+        <ListView.ItemTemplate>
+        <DataTemplate>
+           <ViewCell>
+               <StackLayout Orientation="Horizontal">
+                       <Image Source="{Binding ProfilePicture}"/>
+                       <Label Text="{Binding Message}"/>
+                       <Label Text="{Binding MessageTime}"/>  
+               </StackLayout> 
+           </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+    </ListView>
+    </StackLayout>
+</ContentPage>

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zCJhLhzw7w9NxgVxOPXyuHy1AqCkGxE3O9+jYoQ6hVlpJUSI9f7aH7mOuMsLFPXNWf1nIY5i4xcbCkT2wlM+qQ==",
+  "dgSpecHash": "atU19jbsmanUpjQC4V2B8g+G5zQCO0p5WW5C1l3NuUyQJIgTbEWRkFx/aW9ipwk6Ba9pbWtUlgP/QFc34m5JbA==",
   "success": true,
   "projectFilePath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp/XamarinChatApp.csproj",
   "expectedPackageFiles": [
+    "/Users/alfred/.nuget/packages/firebaseauthentication.net/3.4.0/firebaseauthentication.net.3.4.0.nupkg.sha512",
     "/Users/alfred/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/alfred/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/alfred/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/alfred/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/alfred/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"

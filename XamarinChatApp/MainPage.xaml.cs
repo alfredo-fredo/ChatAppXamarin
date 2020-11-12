@@ -10,33 +10,20 @@ namespace XamarinChatApp
 {
     public partial class MainPage : ContentPage
     {
+        Image image = new Image();
+        String Name;
+        String MessageHint;
+        String MessageSentTime;
+
         public MainPage()
         {
             InitializeComponent();
 
-            MainListView.ItemsSource = new List<ListViewTemplate>
+            MainListView.ItemsSource = new List<CustomMessageCell>
             {
-            new ListViewTemplate
-                {
-                ProfilePicture = null,
-                Name = "Farah",
-                    MessageHint = "I'm doing well! How about you?",
-                    MessageTime = "8:28 pm"               
-               },
-               new ListViewTemplate
-                {
-                ProfilePicture = null,
-                Name = "William",
-                    MessageHint = "I'm doing well! How about you?",
-                    MessageTime = "9:32 am"
-               },
-               new ListViewTemplate
-                {
-                ProfilePicture = null,
-                Name = "Alfred",
-                    MessageHint = "I'm doing well! How about you?",
-                    MessageTime = "1:02 am"
-               },
+                new CustomMessageCell(image, "Alfred", MessageHint, MessageSentTime),
+                new CustomMessageCell(image, "Farah", MessageHint, MessageSentTime),
+                new CustomMessageCell(image, "William", MessageHint, MessageSentTime),
            };
         }
 

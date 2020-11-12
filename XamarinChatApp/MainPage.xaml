@@ -1,20 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinChatApp.MainPage">
+<ContentPage BackgroundColor="WhiteSmoke" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinChatApp.MainPage">
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="ChatApp" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
-        </Frame>
-        <SearchBar Placeholder="Search" />
+    <SearchBar Placeholder="Search" BackgroundColor="Transparent" />
 <ListView x:Name="MainListView">
     <ListView.ItemTemplate>
         <DataTemplate>
            <ViewCell>
                <StackLayout Orientation="Vertical">
                        <Image Source="{Binding ProfilePicture}"/>
-                       <Label Text="{Binding Name}" />  
-                       <Label Text="{Binding MessageHint}" />  
-                       <Label Text="{Binding MessageTime}" />  
-                   </StackLayout> 
+                       <Label Text="{Binding Name}"/>  
+                       <Label Text="{Binding MessageHint}"/>  
+                       <Label Text="{Binding MessageTime}"/>  
+               </StackLayout> 
            </ViewCell>
         </DataTemplate>
     </ListView.ItemTemplate>

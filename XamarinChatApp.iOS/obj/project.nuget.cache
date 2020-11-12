@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "M7T0rOTEDblRA98KK72iPu9aReF6Pa+fb+FTMm6D6KwBUbXIqzvExWQKoRj7XZ8pM9eqcW76xqPLfHnrCh2S9w==",
+  "dgSpecHash": "a8RvZVN5h8eVnh7wGk1IkccSyMWb79GMWDYEwKWDNXXoAvJqk8MNp6h7Tat8j+3/7Zvl4t5zTPzvBMbNCrlqFQ==",
   "success": true,
   "projectFilePath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/alfred/.nuget/packages/firebaseauthentication.net/3.4.0/firebaseauthentication.net.3.4.0.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/alfred/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/alfred/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
