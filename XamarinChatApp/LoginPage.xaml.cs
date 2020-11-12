@@ -38,6 +38,7 @@ namespace XamarinChatApp
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 await App.Current.MainPage.DisplayAlert("Alert", "Failed to login.", "OK");
             }
         }
@@ -55,6 +56,7 @@ namespace XamarinChatApp
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 await App.Current.MainPage.DisplayAlert("Alert", "Provide a valid email.", "OK");
             }
         }

@@ -4,8 +4,11 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "XamarinChatApp.Android.dll" comes first in this list. */
 		"XamarinChatApp.Android.dll",
 		"Firebase.Auth.dll",
+		"Firebase.dll",
 		"FormsViewGroup.dll",
+		"LiteDB.dll",
 		"Newtonsoft.Json.dll",
+		"System.Reactive.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

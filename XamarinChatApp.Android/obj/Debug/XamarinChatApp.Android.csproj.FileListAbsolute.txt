@@ -474,3 +474,7 @@
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Text.Encoding.dll
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Threading.dll
 /Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/Firebase.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/LiteDB.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Reactive.dll
+/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.Android/obj/Debug/android/assets/System.Runtime.InteropServices.WindowsRuntime.dll

@@ -10,43 +10,50 @@ namespace XamarinChatApp
 {
     public partial class MainPage : ContentPage
     {
-        Image image = new Image();
-        String Name;
-        String MessageHint;
-        String MessageSentTime;
-
+      
         public MainPage()
         {
             InitializeComponent();
 
-            MainListView.ItemsSource = new List<CustomMessageCell>
-            {
-                new CustomMessageCell(image, "Alfred", MessageHint, MessageSentTime),
-                new CustomMessageCell(image, "Farah", MessageHint, MessageSentTime),
-                new CustomMessageCell(image, "William", MessageHint, MessageSentTime),
-           };
+            DisplayMessages();
         }
 
-        /*async private void MainListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        async void Send_Clicked(System.Object sender, System.EventArgs e)
         {
-            var Selected = e.Item as ListViewTemplate;
-
-            switch (Selected.OrderNumber)
+            if(SendChatRoomText.Text.Length > 0)
             {
-                case 1:
-                    await Navigation.PushAsync(new MyPage());
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
+                FirebaseHelper firebaseHelper = new FirebaseHelper();
+
+                await firebaseHelper.SendMessage("Alfred", SendChatRoomText.Text);
+            }
+        }
+
+        async void DisplayMessages()
+        {
+            FirebaseHelper firebaseHelper = new FirebaseHelper();
+            List<MessageData> messageDatas = await firebaseHelper.GetMessages();
+
+            if (messageDatas.Count > 0)
+            {
+                MainListView.ItemsSource = new List<MyViewCell>
+                {
+                new MyViewCell(messageDatas[0].SenderID, messageDatas[0].Message, messageDatas[0].TimeStamp),
+                };
+            }
+            else
+            {
+                MainListView.ItemsSource = new List<MyViewCell>
+                {
+                
+                new MyViewCell("Wille", "Hahha", "23:09"),
+                new MyViewCell("Wille", "Hahha", "23:09"),
+                new MyViewCell("Wille", "Hahha", "23:09"),
+
+                };
             }
 
-         ((ListView)sender).SelectedItem = null;
+            
+        }
 
-
-        }*/
     }
 }
