@@ -1,15 +1,4 @@
 ﻿<Properties StartupConfiguration="{837AF77B-CAD8-4317-8134-F04AE598BAA9}|Default">
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinChatApp/MyViewCell.xaml">
-    <Files>
-      <File FileName="XamarinChatApp/LoginPage.xaml.cs" Line="29" Column="41" />
-      <File FileName="XamarinChatApp/MainPage.xaml.cs" Line="68" Column="101" />
-      <File FileName="XamarinChatApp/FirebaseHelper.cs" Line="26" Column="10" />
-      <File FileName="XamarinChatApp/MyViewCell.xaml" Line="5" Column="60" />
-=======
-=======
->>>>>>> f1db1b84b6b3488cdc2a4ad1dabc8ae65e4f179c
   <MonoDevelop.Ide.Workbench ActiveDocument="XamarinChatApp/MainPage.xaml">
     <Files>
       <File FileName="XamarinChatApp/MainPage.xaml.cs" Line="39" Column="55" />
@@ -19,35 +8,18 @@
       <File FileName="XamarinChatApp/LoginPage.xaml" Line="10" Column="15" />
       <File FileName="XamarinChatApp/MyViewCell.xaml" Line="1" Column="1" />
       <File FileName="XamarinChatApp/ChatPage.xaml" Line="1" Column="1" />
-<<<<<<< HEAD
->>>>>>> f1db1b84b6b3488cdc2a4ad1dabc8ae65e4f179c
-=======
->>>>>>> f1db1b84b6b3488cdc2a4ad1dabc8ae65e4f179c
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="XamarinChatApp" expanded="True">
             <Node name="XamarinChatApp" expanded="True">
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-=======
-=======
->>>>>>> f1db1b84b6b3488cdc2a4ad1dabc8ae65e4f179c
               <Node name="MainPage.xaml" selected="True" />
             </Node>
             <Node name="XamarinChatApp.Android" expanded="True">
               <Node name="Resources" expanded="True">
                 <Node name="values" expanded="True" />
->>>>>>> f1db1b84b6b3488cdc2a4ad1dabc8ae65e4f179c
               </Node>
-              <Node name="App.xaml" expanded="True" />
-              <Node name="ChatPage.xaml" expanded="True" />
-              <Node name="LoginPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MyViewCell.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
