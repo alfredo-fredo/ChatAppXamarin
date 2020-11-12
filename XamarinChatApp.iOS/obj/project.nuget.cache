@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "mf3vwmxw2LLb9zAT9vtOeepUxUf1cEJTl0hu5nzESkSQz/S2oKpIAUcRYMMadz1tm/GFNt1tG+bTnaEUKXzeug==",
+  "dgSpecHash": "9n29a9XhRwnUl0kKtueBqXDN+I31D9/u69gDgdX3RTqn6yhLVf7A5jB5tBwKzTpM1uUcwpymVBrTFC1z2xlsfw==",
   "success": true,
-  "projectFilePath": "/Users/william.v/Desktop/oop/ChatAppXamarin/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
+  "projectFilePath": "/Users/alfred/Projects/XamarinChatApp/XamarinChatApp.iOS/XamarinChatApp.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/william.v/.nuget/packages/firebaseauthentication.net/3.4.0/firebaseauthentication.net.3.4.0.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/firebasedatabase.net/4.0.4/firebasedatabase.net.4.0.4.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/litedb/4.1.4/litedb.4.1.4.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/william.v/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/alfred/.nuget/packages/firebaseauthentication.net/3.4.0/firebaseauthentication.net.3.4.0.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/firebasedatabase.net/4.0.4/firebasedatabase.net.4.0.4.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/litedb/4.1.4/litedb.4.1.4.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/alfred/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }

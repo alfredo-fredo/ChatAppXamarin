@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ViewCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinChatApp.MyViewCell">
     <ViewCell.View>
-        <StackLayout BackgroundColor="Black" Orientation="Horizontal" x:Name="MyLayout">
-            <Label TextColor="AntiqueWhite" Text="{Binding Name}"></Label>
-            <Label TextColor="AntiqueWhite" Text="{Binding Message}"></Label>
-            <Label TextColor="AntiqueWhite" Text="{Binding TimeStamp}"></Label>
+        <StackLayout Orientation="Horizontal" x:Name="MyLayout">
+            <Label TextColor="Black" Text="{Binding Name}"></Label>
+            <Label TextColor="Black" Text="{Binding Message}"></Label>
+            <Label TextColor="Black" Text="{Binding TimeStamp}"></Label>
         </StackLayout>
     </ViewCell.View>
 </ViewCell>

@@ -26,9 +26,7 @@ namespace XamarinChatApp
 
             if (isMyMessage)
             {
-                MyLayout.BackgroundColor = Color.FromHex("#034078");
-               
-                
+                MyLayout.BackgroundColor = Color.FromHex("#034078");  
             }
             else
             {

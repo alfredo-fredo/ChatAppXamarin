@@ -12,9 +12,9 @@
         </DataTemplate>
     </ListView.ItemTemplate>
 </ListView>
-        <StackLayout Orientation="Horizontal">
+        <StackLayout Margin="0, 0, 0, 15" Orientation="Horizontal">
             <Entry Placeholder="Write To Chat!" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  x:Name="SendChatRoomText" Margin="20, 0, 10, 0"></Entry>
-            <Button TextColor = "#FEFCFB" BackgroundColor="#001F54" Text="Send" Margin="10, 0, 20, 0" Clicked="Send_Clicked"></Button>
+            <Button TextColor = "#FEFCFB" BackgroundColor="#001F54" Text="Send" Margin="10, 0, 20, 5" Clicked="Send_Clicked"></Button>
         </StackLayout>
     </StackLayout>
 </ContentPage>
