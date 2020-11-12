@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="XamarinChatApp/MainPage.xaml">
     <Files>
       <File FileName="XamarinChatApp/MainPage.xaml.cs" Line="27" Column="23" />
-      <File FileName="XamarinChatApp/MainPage.xaml" Line="18" Column="35" />
-      <File FileName="XamarinChatApp/MyViewCell.xaml.cs" Line="27" Column="1" />
+      <File FileName="XamarinChatApp/MainPage.xaml" Line="9" Column="16" />
+      <File FileName="XamarinChatApp/MyViewCell.xaml.cs" Line="29" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

@@ -27,7 +27,7 @@ namespace XamarinChatApp
 
         public MyViewCell()
         {
-
+            InitializeComponent();
         }
     }
 }
