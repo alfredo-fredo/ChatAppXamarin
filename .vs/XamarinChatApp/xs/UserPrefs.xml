@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{837AF77B-CAD8-4317-8134-F04AE598BAA9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinChatApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinChatApp/FirebaseHelper.cs">
     <Files>
-      <File FileName="XamarinChatApp/MainPage.xaml.cs" Line="27" Column="23" />
-      <File FileName="XamarinChatApp/MainPage.xaml" Line="9" Column="16" />
-      <File FileName="XamarinChatApp/MyViewCell.xaml.cs" Line="29" Column="10" />
+      <File FileName="XamarinChatApp/MainPage.xaml.cs" Line="21" Column="27" />
+      <File FileName="XamarinChatApp/MainPage.xaml" Line="12" Column="11" />
+      <File FileName="XamarinChatApp/MyViewCell.xaml.cs" Line="30" Column="35" />
+      <File FileName="XamarinChatApp/FirebaseHelper.cs" Line="46" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="ChatPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" selected="True" />
+              <Node name="FirebaseHelper.cs" selected="True" />
               <Node name="MyViewCell.xaml" expanded="True" />
             </Node>
           </Node>

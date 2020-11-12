@@ -25,6 +25,8 @@ namespace XamarinChatApp
                 FirebaseHelper firebaseHelper = new FirebaseHelper();
 
                 await firebaseHelper.SendMessage("Alfred", SendChatRoomText.Text);
+
+                SendChatRoomText.Text = "";
             }
         }
 
@@ -33,21 +35,22 @@ namespace XamarinChatApp
             FirebaseHelper firebaseHelper = new FirebaseHelper();
             List<MessageData> messageDatas = await firebaseHelper.GetMessages();
 
-            if (messageDatas.Count > 0)
+            List<MyViewCell> myViewCells = new List<MyViewCell>();
+
+            foreach(MessageData m in messageDatas)
             {
-                MainListView.ItemsSource = new List<MyViewCell>
-                {
-                new MyViewCell(messageDatas[0].SenderID, messageDatas[0].Message, messageDatas[0].TimeStamp),
-                };
+                myViewCells.Add(new MyViewCell(m.SenderID, m.Message, m.TimeStamp));
+            }
+
+            if (myViewCells.Count > 0)
+            {
+                MainListView.ItemsSource = myViewCells;
+
             }
             else
             {
                 MainListView.ItemsSource = new List<MyViewCell>
                 {
-                
-                new MyViewCell("Wille", "Hahha", "23:09"),
-                new MyViewCell("Wille", "Hahha", "23:09"),
-                new MyViewCell("Wille", "Hahha", "23:09"),
 
                 };
             }
